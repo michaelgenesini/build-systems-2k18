@@ -3,10 +3,12 @@
   "description": "Repo for my talk about build systems at Caffeina Tech Meetup",
   "version": "1.0.0",
   "main": "./src/index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./src/index.html" ,
+    "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
   "repository": {

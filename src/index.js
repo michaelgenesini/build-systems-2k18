@@ -1,3 +1,10 @@
-import './main.css'
+import './main.sass'
 
-console.log("hello world")
+(() => {
+    const DATA = {
+        firstName: 'Parrot',
+        lastName: 'Party'
+    }
+    let {firstName, lastName} = DATA
+    console.log(`Hello ${firstName} ${lastName}!`)
+})()

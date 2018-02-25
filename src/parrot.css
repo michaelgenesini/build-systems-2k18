@@ -1,7 +1,0 @@
-.parrot {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    /* Reference an image file */
-    background: url('./static/imgs/partyparrot.gif') no-repeat center center;
-}
