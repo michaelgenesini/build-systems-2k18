@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/michaelgenesini/build-systems-2k18#readme",
   "dependencies": {
-    "parcel-bundler": "^1.6.2"
+    "rollup": "^0.56.2"
   }
 }
