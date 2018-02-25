@@ -1,5 +1,4 @@
-// import './main.sass'
-
+import './main.sass'
 
 // Import a couple modules for testing.
 import { sayHelloTo } from './modules/mod1'
