@@ -3,9 +3,7 @@
   "description": "Repo for my talk about build systems at Caffeina Tech Meetup",
   "version": "1.0.0",
   "main": "./src/index.js",
-  "devDependencies": {
-    "node-sass": "^4.7.2"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -c -w",
@@ -22,6 +20,12 @@
   },
   "homepage": "https://github.com/michaelgenesini/build-systems-2k18#readme",
   "dependencies": {
-    "rollup": "^0.56.2"
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "node-sass": "^4.7.2",
+    "rollup": "^0.56.2",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-postcss": "^1.2.9",
+    "rollup-watch": "^4.3.1"
   }
 }

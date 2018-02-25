@@ -1,3 +1,5 @@
+import style from './main.sass'
+
 // Import a couple modules for testing.
 import { sayHelloTo } from './modules/mod1'
 import addArray from './modules/mod2'
@@ -6,6 +8,7 @@ const DATA = {
     firstName: 'Parrot',
     lastName: 'Party'
 }
+
 let {firstName, lastName} = DATA
 console.log(`Hello ${firstName} ${lastName}!`)
 
