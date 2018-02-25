@@ -1,0 +1,25 @@
+{
+  "name": "build-systems-2k18",
+  "description": "Repo for my talk about build systems at Caffeina Tech Meetup",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html" ,
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelgenesini/build-systems-2k18.git"
+  },
+  "author": "michael.genesini@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelgenesini/build-systems-2k18/issues"
+  },
+  "homepage": "https://github.com/michaelgenesini/build-systems-2k18#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.6.2"
+  }
+}
